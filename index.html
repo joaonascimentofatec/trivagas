@@ -8,22 +8,36 @@
     <title>Trivagas</title>
 
     <link href="style.css" rel="stylesheet">
+    <link href="cadastroModal.css" rel="stylesheet">
 </head>
 
 <body style="margin: 0">
 
     <div style="height: 110px; padding: 0 20%;">
-        <img src="img/LogoTrivagas.png" alt="LogoTrivagas" height="100px" style="padding-top: 5px; float: left;">
+        <a href="index.html">
+            <img src="img/LogoTrivagas.png" alt="LogoTrivagas" height="100px" style="padding-top: 5px; float: left;">
+        </a>
 
         <div style="float: right; height: 100%; padding: 40px 0;">
-            <a href="#" class="botao-azul" style="font-size: 1.5em; margin-right: 10px;">Cadastrar</a>
+            <a href="#" class="botao-azul" id="myBtn" style="font-size: 1.5em; margin-right: 10px;">Cadastrar</a>
             <a href="#" class="botao-verde" style="font-size: 1.5em;">Logar</a>
         </div>
 
     </div>
 
-    <div class="background-amarelo-claro" style="height: 200px; padding-top: 150px; background-image: url('img/city2.png'); background-repeat: repeat; background-size: contain; background-position-x: center; background-position-y: 107px">
-        
+    <!--Modal escolher cadastro -->
+    <div id="myModal" class="modal">
+        <div class="modal-content" style="text-align:center; padding-top: 40px;padding-bottom: 40px;">
+            <span class="close">&times;</span>
+            <a href="cadastroEstudante.html" class="botao-azul" id="myBtn"
+                style="font-size: 1.5em; margin-right: 10px;">ESTUDANTE</a>
+            <a href="cadastroEmpresa.html" class="botao-amarelo" style="font-size: 1.5em;">EMPRESA</a>
+        </div>
+    </div>
+
+    <div class="background-amarelo-claro"
+        style="height: 200px; padding-top: 150px; background-image: url('img/city2.png'); background-repeat: repeat; background-size: contain; background-position-x: center; background-position-y: 107px">
+
         <!--img src="img/pexels-photo-3184360.jpeg" alt="" style="float: left;"-->
 
         <input type="text" name="texto" id="1" class="input-text" placeholder="Pesquise por cargo, vaga ou empresa"
@@ -32,20 +46,45 @@
     </div>
 
     <div style="padding: 0 20%; height: 200px;">
-        <div style="float: left; width: 60%;">
+        <div style="float: left; width: 60%; margin-top: 3%;">
             <h2 class="texto-azul">O Portal de Vagas da Fatec Itapira</h2>
 
-            <p>Encontre sua vaga de estágio ou contrato de emprego com dezenas de empresas parceiras, exclusivamente para alunos Fatec! </p>
+            <p>Encontre sua vaga de estágio ou contrato de emprego com dezenas de empresas parceiras, exclusivamente
+                para alunos Fatec! </p>
         </div>
         <div style="float: right;">
             <img src="img/LogoFatec.png" alt="LogoFatec" height="200px">
         </div>
     </div>
 
-    <div class="background-verde" style="height: 300px;">
-        <img src="img/grafico.png" alt="grafico" height="300px" style="display: block; margin-left: auto; margin-right: auto;">
+    <div class="background-verde" style="height: 300px; display: block; padding: 0 32%;">
+        <img src="img/grafico.png" alt="grafico" height="300px" width="auto">
+    </div>
+
+    <div class="footer" style="background-color: #222222; padding: 20px; text-align: center;">
+        <p style="color: #FFFFFF; font-size: large;">Trivagas 2022 - Ester, Fábio, João, José, Leonardo</p>
+        <p style="color: #FFFFFF; font-size: medium; font-style: italic;">"Depois de nois é nois de novo"</p>
+
+        <table style="text-decoration: none; color: #FFFFFF; margin: 0 auto;">
+            <tr>
+                <th>Estudante</th>
+                <th>Empresa</th>
+                <th>Admin</th>
+            </tr>
+            <tr>
+                <td><a href="cadastroEstudante.html" class="texto-azul">Cadastro</a></td>
+                <td><a href="cadastroEmpresa.html" class="texto-amarelo">Cadastro</a></td>
+                <td><a href="fatec.html" class="texto-vermelho">Painel</a></td>
+            </tr>
+            <tr>
+                <td><a href="estudantePerfil.html" class="texto-azul">Perfil</a></td>
+                <td><a href="" class="texto-amarelo">Perfil</a></td>
+            </tr>
+        </table>
     </div>
 
 </body>
+
+<script src="cadastro.js"></script>
 
 </html>
