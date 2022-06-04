@@ -12,6 +12,10 @@
     --amarelo-claro: #faa634;
     --amarelo-escuro: #c97e19;
     --vermelho-vinho: #9B3535;
+    --vermelho: #992525;
+    --vermelho-rgb: 153 37 37;
+    --vermelho-claro: #bd2b2b;
+    --vermelho-escuro: #701a1a;
     --cinza: #dddddd;
     --cinza-rgb: 195 197 199;
     --cinza-claro: #c3c5c7;
@@ -168,53 +172,7 @@ body {
     box-shadow: 0 0 0 0.25rem rgb(var(--verde-rgb) / 50%);
 }
 
-/* Botão Azul */
-.botao-azul {
-    border: 2px solid var(--azul);
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    background-color: var(--azul);
-    padding: 5px 15px;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
 
-.botao-azul:hover {
-    border: 2px solid var(--azul);
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    background-color: var(--azul-escuro);
-    padding: 5px 15px;
-}
-
-.botao-azul:focus {
-    box-shadow: 0 0 0 0.25rem rgb(var(--azul-rgb) / 50%);
-}
-
-.botao-outline-azul {
-    background-color: white;
-    border: 2px solid var(--azul);
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
-    padding: 5px 15px;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
-.botao-outline-azul:hover {
-    border: 2px solid var(--azul);
-    border-radius: 5px;
-    text-decoration: none;
-    color: white;
-    background-color: var(--azul);
-    padding: 5px 15px;
-}
-
-.botao-outline-azul:focus {
-    border: 2px solid var(--azul);
-    box-shadow: 0 0 0 0.25rem rgb(var(--azul-rgb) / 50%);
-}
 
 /* Botão Cinza */
 .botao-cinza {
@@ -255,13 +213,61 @@ body {
     border-radius: 5px;
     text-decoration: none;
     color: black;
-    background-color: var(--cinza);
+    background-color: var(--vermelho);
     padding: 5px 15px;
 }
 
 .botao-outline-cinza:focus {
-    border: 2px solid var(--cinza);
-    box-shadow: 0 0 0 0.25rem rgb(var(--cinza-rgb) / 50%);
+    border: 2px solid var(--vermelho);
+    box-shadow: 0 0 0 0.25rem rgb(var(--vermelho-rgb) / 50%);
+}
+
+/* Botão Vermelho */
+.botao-vermelho {
+    border: 2px solid var(--vermelho);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--vermelho);
+    padding: 5px 15px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.botao-vermelho:hover {
+    border: 2px solid var(--vermelho);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--vermelho-escuro);
+    padding: 5px 15px;
+}
+
+.botao-vermelho:focus {
+    box-shadow: 0 0 0 0.25rem rgb(var(--vermelho-rgb) / 50%);
+}
+
+.botao-outline-vermelho {
+    background-color: white;
+    border: 2px solid var(--vermelho);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.botao-outline-vermelho:hover {
+    border: 2px solid var(--vermelho);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: var(--vermelho);
+    padding: 5px 15px;
+}
+
+.botao-outline-vermelho:focus {
+    border: 2px solid var(--vermelho);
+    box-shadow: 0 0 0 0.25rem rgb(var(--azul-rgb) / 50%);
 }
 
 /* Textos */
