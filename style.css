@@ -57,7 +57,9 @@ body {
     border: 2px solid var(--azul);
     border-radius: 5px;
     text-decoration: none;
-    color: black;
+    /*color: black;*/
+    color: var(--azul);
+    font-weight: bold;
     padding: 5px 15px;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
@@ -105,7 +107,8 @@ body {
     border: 2px solid var(--amarelo);
     border-radius: 5px;
     text-decoration: none;
-    color: black;
+    color: var(--amarelo);
+    font-weight: bold;
     padding: 5px 15px;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
@@ -153,7 +156,8 @@ body {
     border: 2px solid var(--verde);
     border-radius: 5px;
     text-decoration: none;
-    color: black;
+    color: var(--verde);
+    font-weight: bold;
     padding: 5px 15px;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
