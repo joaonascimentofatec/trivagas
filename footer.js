@@ -10,13 +10,13 @@ document.write(`
                 <th>Admin</th>
             </tr>
             <tr>
-                <td><a href="cadastroEstudante.html" class="texto-azul">Cadastro</a></td>
-                <td><a href="cadastroEmpresa.html" class="texto-amarelo">Cadastro</a></td>
-                <td><a href="fatec.html" class="texto-vermelho">Painel</a></td>
+                <td><a href="estudanteCadastro.html" class="texto-azul">Cadastro</a></td>
+                <td><a href="empresaCadastro.html" class="texto-amarelo">Cadastro</a></td>
+                <td><a href="escolaLogar.html" class="texto-vermelho">Painel</a></td>
             </tr>
             <tr>
                 <td><a href="estudantePerfil.html" class="texto-azul">Perfil</a></td>
-                <td><a href="" class="texto-amarelo">Perfil</a></td>
+                <td><a href="empresaPerfil.html" class="texto-amarelo">Perfil</a></td>
             </tr>
         </table>
     </div>

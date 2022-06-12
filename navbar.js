@@ -15,9 +15,9 @@ document.write(`
     <div id="myModal" class="modal">
         <div class="modal-content" style="text-align:center; padding-top: 40px;padding-bottom: 40px;">
             <span class="close">&times;</span>
-            <a href="cadastroEstudante.html" class="botao-azul" id="myBtn"
+            <a href="estudanteCadastro.html" class="botao-azul" id="myBtn"
                 style="font-size: 1.5em; margin-right: 10px;">ESTUDANTE</a>
-            <a href="cadastroEmpresa.html" class="botao-amarelo" style="font-size: 1.5em;">EMPRESA</a>
+            <a href="empresaCadastro.html" class="botao-amarelo" style="font-size: 1.5em;">EMPRESA</a>
         </div>
     </div>
 
@@ -25,10 +25,10 @@ document.write(`
     <div id="myModal2" class="modal2">
         <div class="modal-content2" style="text-align:center; padding-top: 40px;padding-bottom: 40px;">
             <span class="close2">&times;</span>
-            <a href="logarEstudante.html" class="botao-azul" id="myBtn2"
+            <a href="estudanteLogar.html" class="botao-azul" id="myBtn2"
                 style="font-size: 1.5em; margin-right: 10px;">ESTUDANTE</a>
-            <a href="cadastroEmpresa.html" class="botao-amarelo" style="font-size: 1.5em;">EMPRESA</a>
-            <a href="cadastroEmpresa.html" class="botao-vermelho" style="font-size: 1.5em; margin-left: 10px;">FATEC</a>
+            <a href="empresaLogar.html" class="botao-amarelo" style="font-size: 1.5em;">EMPRESA</a>
+            <a href="escolaLogar.html" class="botao-vermelho" style="font-size: 1.5em; margin-left: 10px;">FATEC</a>
         </div>
     </div>
 `);
