@@ -1,5 +1,5 @@
 document.write(`
-<div style="height: 110px; padding: 0 20%;">
+<div style="height: 11%; padding: 0 20%;">
         <a href="index.html">
             <img src="img/LogoTrivagas.png" alt="LogoTrivagas" height="100px" style="padding-top: 5px; float: left;">
         </a>

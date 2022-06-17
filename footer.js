@@ -9,14 +9,23 @@ document.write(`
                 <th>Empresa</th>
                 <th>Admin</th>
             </tr>
+            
+            <tr>
+                <td><a href="estudanteLogar.html" class="texto-azul">Logar</a></td>
+                <td><a href="empresaLogar.html" class="texto-amarelo">Logar</a></td>
+                <td><a href="escolaLogar.html" class="texto-vermelho">Logar</a></td>
+            </tr>
             <tr>
                 <td><a href="estudanteCadastro.html" class="texto-azul">Cadastro</a></td>
                 <td><a href="empresaCadastro.html" class="texto-amarelo">Cadastro</a></td>
-                <td><a href="escolaLogar.html" class="texto-vermelho">Painel</a></td>
+                
+            </tr>
+            <tr>
+                <td><a href="estudanteInicial.html" class="texto-azul">Inicial</a></td>
+                <td><a href="empresaPerfil.html" class="texto-amarelo">Inicial</a></td>
             </tr>
             <tr>
                 <td><a href="estudantePerfil.html" class="texto-azul">Perfil</a></td>
-                <td><a href="empresaPerfil.html" class="texto-amarelo">Perfil</a></td>
             </tr>
         </table>
     </div>
