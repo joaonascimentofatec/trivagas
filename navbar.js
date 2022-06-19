@@ -1,15 +1,15 @@
 document.write(`
-<div style="height: 11%; padding: 0 20%;">
-        <a href="index.html">
-            <img src="img/LogoTrivagas.png" alt="LogoTrivagas" height="100px" style="padding-top: 5px; float: left;">
-        </a>
+<div style="height: 110px; padding: 0 20%;">
+    <a href="index.html">
+        <img src="img/LogoTrivagas.png" alt="LogoTrivagas" height="100px" style="padding-top: 5px; float: left;">
+    </a>
 
-        <div style="float: right; height: 100%; padding: 40px 0;">
-            <a href="#" class="botao-azul" id="myBtn" style="font-size: 1.5em; margin-right: 10px;">CADASTRAR</a>
-            <a href="#" class="botao-verde" id="myBtn2" style="font-size: 1.5em;">LOGAR</a>
-        </div>
-
+    <div style="float: right; height: 100%; padding: 40px 0;">
+        <a href="#" class="botao-azul" id="myBtn" style="font-size: 1.5em; margin-right: 10px;">CADASTRAR</a>
+        <a href="#" class="botao-verde" id="myBtn2" style="font-size: 1.5em;">LOGAR</a>
     </div>
+
+</div>
 
     <!--Modal escolher cadastro -->
     <div id="myModal" class="modal">
