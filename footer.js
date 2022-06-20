@@ -1,7 +1,7 @@
 document.write(`
     <div class="footer" style="background-color: #222222; padding: 20px; text-align: center;">
         <p style="color: #FFFFFF; font-size: large;">Trivagas 2022 - Ester Carlos, Fábio Gonçalves, João Nascimento, José Ribeiro e Leonardo Dezoti</p>
-        <p style="color: #FFFFFF; font-size: medium; font-style: italic;">"Depois de nois é nois de novo"</p>
+        <p style="color: #FFFFFF; font-size: medium; font-style: italic;">"Uma conexão entre os três pilares"</p>
 
         <table style="text-decoration: none; color: #FFFFFF; margin: 0 auto;border-collapse: separate; border-spacing: 45px 10px;">
             <tr >
