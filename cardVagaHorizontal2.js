@@ -4,6 +4,6 @@ document.write(`
 
     <p style="height: 50%">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-    <a href="vagaDetalhesIni.html" class="botao-azul" id="myBtn" style="float: right; margin-top: -50px; font-size: 1.5em;">Detalhes</a>
+    <a href="vagaDetalhes.html" class="botao-azul" id="myBtn" style="float: right; margin-top: -50px; font-size: 1.5em;">Detalhes</a>
 </div>
 `);
